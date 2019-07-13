@@ -6,34 +6,28 @@ import Profiles from '../Profiles/Profiles';
 import Resume from '../Resume/Resume'
 import history from '../history';
 import './Header.css';
-import { Router, Link } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 
 class Header extends React.Component {
     state = {
-        render: null
+        render: ''
     };
 
      onResumeTabClicked = () => {
         return (
-            this.setState({
-                render: Resume
-            })
+            this.props.history.push('/resume')
         );
     };
 
     onProfilesTabClicked = () => {
         return (
-            this.setState({
-                render: Profiles
-            })
+            this.props.history.push('/profiles')
         );
     };
 
     onAboutTabClicked = () => {
         return (
-            this.setState({
-                render: About
-            })
+            this.props.history.push('/about')
         );
     };
 
@@ -54,4 +48,4 @@ class Header extends React.Component {
     }
 };
 
-export default Header;
+export default withRouter(Header);
