@@ -1,13 +1,13 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
 
-const Resume = () => {
+const Contact = () => {
     return (
         <div>
-            Resume
-            <Bio />
+            About
+            <Bio/>
         </div>
     );
 };
 
-export default Resume;
+export default Contact;

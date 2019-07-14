@@ -4,7 +4,7 @@ import history from './history';
 import HomePage from '../components/Home/Home';
 import Resume from '../components/Resume/Resume';
 import Profiles from '../components/Profiles/Profiles';
-import About from '../components/About/About';
+import Contact from './Contact/Contact';
 import {Router, Route, Switch} from 'react-router-dom';
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
                     <Header />
                     <Switch>
                         <Route path="/" exact component={HomePage} />
-                        <Route path="/about" exact component={About} />
+                        <Route path="/contact-me" exact component={Contact} />
                         <Route path="/resume" exact component={Resume} />
                         <Route path="/profiles" exact component={Profiles} />
                     </Switch>
