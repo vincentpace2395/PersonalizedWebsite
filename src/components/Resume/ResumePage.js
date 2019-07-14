@@ -5,7 +5,9 @@ import ResumePreview from "./ResumePreview";
 const ResumePage = () => {
     return (
         <div>
-            <Bio />
+            <div>
+                <Bio />
+            </div>
             <div>
                 <ResumePreview />
             </div>

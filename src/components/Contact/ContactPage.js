@@ -6,9 +6,7 @@ const ContactPage = () => {
     return (
         <div>
             <Bio/>
-            <div>
-                <ContactInfo />
-            </div>
+            <ContactInfo />
         </div>
     );
 };
