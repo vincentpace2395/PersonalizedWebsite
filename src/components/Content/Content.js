@@ -9,7 +9,7 @@ class Content extends React.Component {
                     <h1 className='account-content'>Vincent Pace</h1>
                 </div>
                 <div>
-                    <h4>Software Developer in search of a UI development position (ReactJS) in Austin, TX</h4>
+                    <h5>Software Developer in search of a UI development position (ReactJS) in Austin, TX</h5>
                 </div>
             </div>
         );

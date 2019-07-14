@@ -2,9 +2,9 @@ import React from 'react';
 import Header from './Header/Header';
 import history from './history';
 import HomePage from '../components/Home/Home';
-import Resume from '../components/Resume/Resume';
+import ResumePage from './Resume/ResumePage';
 import Profiles from '../components/Profiles/Profiles';
-import Contact from './Contact/Contact';
+import ContactPage from './Contact/ContactPage';
 import {Router, Route, Switch} from 'react-router-dom';
 
 const App = () => {
@@ -15,8 +15,8 @@ const App = () => {
                     <Header />
                     <Switch>
                         <Route path="/" exact component={HomePage} />
-                        <Route path="/contact-me" exact component={Contact} />
-                        <Route path="/resume" exact component={Resume} />
+                        <Route path="/contact-me" exact component={ContactPage} />
+                        <Route path="/resume" exact component={ResumePage} />
                         <Route path="/profiles" exact component={Profiles} />
                     </Switch>
                 </div>
