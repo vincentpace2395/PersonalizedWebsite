@@ -1,0 +1,8 @@
+.contact-info-box {
+    border: 2px solid black;
+    background: lightgrey;
+    max-width: 20%;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-align: center;
+}

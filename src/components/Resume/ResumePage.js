@@ -5,7 +5,6 @@ import ResumePreview from "./ResumePreview";
 const ResumePage = () => {
     return (
         <div>
-            Resume
             <Bio />
             <div>
                 <ResumePreview />

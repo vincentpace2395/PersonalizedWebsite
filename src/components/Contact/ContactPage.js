@@ -5,7 +5,6 @@ import ContactInfo from '../Contact/ContactInfo';
 const ContactPage = () => {
     return (
         <div>
-            About
             <Bio/>
             <div>
                 <ContactInfo />
