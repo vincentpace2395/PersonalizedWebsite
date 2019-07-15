@@ -1,13 +1,15 @@
 import React from 'react';
 import Content from '../Content/Content';
+import './Bio.css';
 
 class Bio extends React.Component {
     render() {
         return (
             <div className='bio-top-row'>
-                <div className='justify-content-center col-md-4'>
-                    Insert Headshot
-                </div>
+                <img
+                    alt="xl avatar"
+                    src="https://avatars0.githubusercontent.com/u/16357524?s=400&u=25983d0880562b3b1f59e2d4007adf419e2a8c35&v=4"
+                />
                 <div className='col-md-8'>
                     <Content />
                 </div>
