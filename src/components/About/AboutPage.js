@@ -1,14 +1,16 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
-import ContactInfo from '../Contact/ContactInfo';
+import ContactInfo from './/ContactInfo';
+import Skills from './Skills';
 
-const ContactPage = () => {
+const AboutPage = () => {
     return (
         <div>
             <Bio/>
             <ContactInfo />
+            <Skills />
         </div>
     );
 };
 
-export default ContactPage;
+export default AboutPage;

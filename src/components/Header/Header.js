@@ -15,7 +15,7 @@ class Header extends React.Component {
                     <Nav>
                         <Nav.Link onClick={() => this.props.history.push('/resume')}>Resume</Nav.Link>
                         <Nav.Link onClick={() => this.props.history.push('/profiles')}>Profiles</Nav.Link>
-                        <Nav.Link onClick={() => this.props.history.push('/contact-me')}>Contact Me</Nav.Link>
+                        <Nav.Link onClick={() => this.props.history.push('/about-me')}>About Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
