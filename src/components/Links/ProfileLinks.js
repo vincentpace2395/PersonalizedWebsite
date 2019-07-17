@@ -1,9 +1,11 @@
 import React from 'react';
+import Companies from './Companies';
 import './Profiles.css';
 
 const ProfileLinks = () => {
     return (
         <div className='profile-links'>
+            <Companies />
             <div className='profile-list-first-row'>
                 <a href='https://www.linkedin.com/in/vincent-pace-394562b8/' target='_blank'>
                     <img

@@ -6,7 +6,7 @@ const ResumePage = () => {
     return (
         <div>
             <div>
-                <Bio />
+                <Bio category='Resume'/>
             </div>
             <div>
                 <ResumePreview />

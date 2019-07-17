@@ -12,6 +12,9 @@ class Bio extends React.Component {
                 />
                 <div className='col-md-8'>
                     <Content />
+                    <div className='category'>
+                        <h4 style={{textAlign: 'center', paddingTop: '40px'}}>{this.props.category}</h4>
+                    </div>
                 </div>
             </div>
         );

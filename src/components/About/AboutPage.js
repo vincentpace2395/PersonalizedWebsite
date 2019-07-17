@@ -6,7 +6,7 @@ import Skills from './Skills';
 const AboutPage = () => {
     return (
         <div>
-            <Bio/>
+            <Bio category='About' />
             <ContactInfo />
             <Skills />
         </div>
