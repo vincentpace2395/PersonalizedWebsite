@@ -1,9 +1,9 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
-import ProfileLinks from './ProfileLinks';
-import './Profiles.css';
+import ProfileLinks from './ProfileLinks/ProfileLinks';
+import './LinksPage.css';
 
-const Profiles = () => {
+const LinksPage = () => {
     return (
         <div>
             <Bio category='Links' />
@@ -12,4 +12,4 @@ const Profiles = () => {
     );
 };
 
-export default Profiles;
+export default LinksPage;

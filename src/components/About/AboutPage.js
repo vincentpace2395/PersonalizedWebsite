@@ -1,7 +1,7 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
-import ContactInfo from './/ContactInfo';
-import Skills from './Skills';
+import ContactInfo from './ContactInfo/ContactInfo';
+import Skills from './Skills/Skills';
 
 const AboutPage = () => {
     return (
