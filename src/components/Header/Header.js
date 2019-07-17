@@ -14,7 +14,7 @@ class Header extends React.Component {
                 <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
                     <Nav>
                         <Nav.Link onClick={() => this.props.history.push('/resume')}>Resume</Nav.Link>
-                        <Nav.Link onClick={() => this.props.history.push('/profiles')}>Profiles</Nav.Link>
+                        <Nav.Link onClick={() => this.props.history.push('/links')}>Links</Nav.Link>
                         <Nav.Link onClick={() => this.props.history.push('/about-me')}>About Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
