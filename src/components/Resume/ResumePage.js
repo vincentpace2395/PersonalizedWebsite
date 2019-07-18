@@ -1,12 +1,13 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
 import ResumePreview from "./ResumePreview";
+import Description from './Description/Description';
 
 const ResumePage = () => {
     return (
         <div>
             <div>
-                <Bio category='Resume'/>
+                <Bio category=<Description /> />
             </div>
             <div>
                 <ResumePreview />
