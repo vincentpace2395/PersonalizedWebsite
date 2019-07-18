@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Description = () => {
+const LinksDescription = () => {
     return (
         <h6 style={{fontStyle: 'italic'}}>
             Below you can find links to some of my profiles, as well as links to the home pages of
@@ -9,4 +9,4 @@ const Description = () => {
     )
 };
 
-export default Description;
+export default LinksDescription;

@@ -1,11 +1,13 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
+import Timeline from './Timeline/Timeline';
+import Intro from './Intro/Intro';
 
 const Home = () => {
     return (
         <div>
-            Home Page
-            <Bio />
+            <Bio category = <Intro /> />
+            <Timeline />
         </div>
     );
 };

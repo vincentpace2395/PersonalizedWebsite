@@ -1,13 +1,13 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
 import ProfileLinks from './ProfileLinks/ProfileLinks';
-import Description from './Description/Description';
+import LinksDescription from './Description/LinksDescription';
 import './LinksPage.css';
 
 const LinksPage = () => {
     return (
         <div>
-            <Bio category=<Description /> />
+            <Bio category=<LinksDescription /> />
             <ProfileLinks />
         </div>
     );
