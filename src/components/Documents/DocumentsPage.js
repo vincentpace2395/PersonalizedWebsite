@@ -3,7 +3,7 @@ import Bio from '../Bio/Bio';
 import ResumePreview from "./ResumePreview";
 import Description from './Description/Description';
 
-const ResumePage = () => {
+const DocumentsPage = () => {
     return (
         <div>
             <div>
@@ -16,4 +16,4 @@ const ResumePage = () => {
     );
 };
 
-export default ResumePage;
+export default DocumentsPage;

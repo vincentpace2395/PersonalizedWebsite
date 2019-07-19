@@ -3,7 +3,7 @@ import { Timeline, Content, ContentYear, ContentBody, Description } from 'vertic
 
 const Time = () => {
     return (
-        <div style={{paddingTop: '30px', width: '50%', float: 'right'}}>
+        <div style={{paddingTop: '30px', width: '70%', float: 'right'}}>
             <Timeline style={{color: 'black'}}>
                 <Content>
                     <ContentYear year="2019" />
