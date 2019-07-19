@@ -1,6 +1,6 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
-import Timeline from './Timeline/Timeline';
+import Timeline from './Timeline/Time';
 import Intro from './Intro/Intro';
 
 const Home = () => {
