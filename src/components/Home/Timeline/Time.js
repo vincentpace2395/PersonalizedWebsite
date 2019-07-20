@@ -1,5 +1,6 @@
 import React from 'react';
 import { Timeline, Content, ContentYear, ContentBody, Description } from 'vertical-timeline-component-react';
+import './Time.css';
 
 const Time = () => {
     return (

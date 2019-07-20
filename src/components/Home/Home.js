@@ -2,20 +2,31 @@ import React from 'react';
 import Bio from '../Bio/Bio';
 import Timeline from './Timeline/Time';
 import Intro from './Intro/Intro';
-import WeatherOption from "./WeatherInfo/WeatherOption";
 import WeatherDisplay from "./WeatherInfo/WeatherDisplay";
+import WeatherButton from './WeatherInfo/WeatherButton';
 
-const Home = () => {
-    return (
-        <div>
-            <Bio category = <Intro /> />
-            <Timeline />
-            <WeatherDisplay />
+class Home extends React.Component {
+
+    state = {
+        showWeatherDisplay: false
+    };
+
+    onShowWeatherDisplay = show => {
+        this.setState({
+            showWeatherDisplay: show
+        })
+    };
+
+    render() {
+        return (
             <div>
-                <WeatherOption />
+                <Bio category = <Intro /> />
+                <Timeline />
+                <WeatherButton onShowWeather={this.onShowWeatherDisplay}/>
+                { this.state.showWeatherDisplay ? <WeatherDisplay /> : null }
             </div>
-        </div>
-    );
+        );
+    }
 };
 
 export default Home;
