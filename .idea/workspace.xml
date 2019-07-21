@@ -8,11 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../hooks-simple/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hooks-simple/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hooks-simple/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intro-to-react/src/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-react/src/Person/Person.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../posts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../posts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserOutput.css" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserOutput.css" afterDir="false" />
@@ -32,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="31">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -223,12 +219,12 @@
       <workItem from="1562980583101" duration="420000" />
       <workItem from="1562981046796" duration="39042000" />
       <workItem from="1563412893121" duration="21955000" />
-      <workItem from="1563689423834" duration="90000" />
+      <workItem from="1563689423834" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75216000" />
+    <option name="totallyTimeSpent" value="75284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="143" width="1112" height="688" extended-state="0" />
@@ -571,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="31">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

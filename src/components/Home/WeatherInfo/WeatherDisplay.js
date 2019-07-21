@@ -12,7 +12,7 @@ class WeatherDisplay extends React.Component {
     };
 
     componentDidMount() {
-        axios.get('http://api2.openweathermap.org/data/2.5/weather?zip=78758,us&APPID=7b4435273deac153aa81d70948d836c9')
+        axios.get('http://api.openweathermap.org/data/2.5/weather?zip=78758,us&APPID=7b4435273deac153aa81d70948d836c9')
             .then(response => {
                 this.setState({
                     temperature: this.kelvinToFahrenheit(response.data.main.temp)
