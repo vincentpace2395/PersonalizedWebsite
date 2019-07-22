@@ -25,20 +25,27 @@ class WeatherDisplay extends React.Component {
             });
     }
 
-    render() {
-        return (
-            <React.Fragment>
-                {!this.state.error ? (
+    renderTemperature = () => {
+        return this.state.temperature ? (
                     <div>
-                        <div style={{width: '30%', paddingTop: '200px'}}>
-                            {this.state.temperature}
+                        <div style={{width: '28%', paddingTop: '150px', textAlign: 'center'}}>
+                            <h2>{`${this.state.temperature}° F`}</h2>
                         </div>
                         <div style={{paddingTop: '25px'}}>
 
                         </div>
                     </div>
-                ) : (
-                    <div style={{color: 'red', width: '30%', paddingTop: '200px'}}>{this.state.error}</div>
+                ) :  null
+    };
+
+    render() {
+        return (
+            <React.Fragment>
+                {!this.state.error ?
+                    this.renderTemperature() : (
+                    <div style={{color: 'red', width: '28%', paddingTop: '150px', textAlign: 'center'}}>
+                        {this.state.error}
+                    </div>
                 )}
             </React.Fragment>
         );
