@@ -4,7 +4,7 @@ import './Companies.css';
 const CompanyIcons = () => {
     return (
         <div className='company-list'>
-            <div>
+            <React.Fragment>
                 <a href='http://www.trapize.com/' target='_blank'>
                     <img
                         className="trapize-icon-link"
@@ -12,8 +12,8 @@ const CompanyIcons = () => {
                         style={{margin: '5px', width: '120px', height: '120px', backgroundColor: 'black'}}
                     />
                 </a>
-            </div>
-            <div>
+            </React.Fragment>
+            <React.Fragment>
                 <a href='https://wellsmith.com' target='_blank'>
                     <img
                         className="wellsmith-icon-link"
@@ -21,8 +21,8 @@ const CompanyIcons = () => {
                         style={{margin: '5px', width: '120px', height: '120px', backgroundColor: 'black'}}
                     />
                 </a>
-            </div>
-            <div>
+            </React.Fragment>
+            <React.Fragment>
                 <a href='https://www.anaconda.com' target='_blank'>
                     <img
                         className="anaconda-icon-link"
@@ -30,8 +30,8 @@ const CompanyIcons = () => {
                         style={{margin: '5px', width: '120px', height: '120px', backgroundColor: 'white'}}
                     />
                 </a>
-            </div>
-            <div>
+            </React.Fragment>
+            <React.Fragment>
                 <a href='https://www.cvent.com' target='_blank'>
                     <img
                         className="cvent-icon-link"
@@ -39,7 +39,7 @@ const CompanyIcons = () => {
                         style={{margin: '5px', width: '120px', height: '120px', backgroundColor: 'black'}}
                     />
                 </a>
-            </div>
+            </React.Fragment>
         </div>
     );
 };

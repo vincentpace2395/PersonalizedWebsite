@@ -4,14 +4,14 @@ import './ContactInfo.css';
 const ContactInfo = () => {
     return (
         <div className='contact-info-box'>
-            <div>
+            <React.Fragment>
                 <h6>Email</h6>
                 <p>vpace@nhpace.net</p>
-            </div>
-            <div>
+            </React.Fragment>
+            <React.Fragment>
                 <h6>Phone Number</h6>
                 <p>(603)714-1382</p>
-            </div>
+            </React.Fragment>
         </div>
     );
 };

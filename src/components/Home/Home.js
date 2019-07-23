@@ -4,6 +4,7 @@ import Timeline from './Timeline/Time';
 import Intro from './Intro/Intro';
 import WeatherDisplay from "./WeatherInfo/WeatherDisplay";
 import WeatherButton from './WeatherInfo/WeatherButton';
+import Footer from '../Footer/Footer';
 
 class Home extends React.Component {
 
@@ -24,6 +25,8 @@ class Home extends React.Component {
                 <Timeline />
                 <WeatherButton onShowWeather={this.onShowWeatherDisplay}/>
                 { this.state.showWeatherDisplay ? <WeatherDisplay /> : null }
+
+                <Footer />
             </div>
         );
     }

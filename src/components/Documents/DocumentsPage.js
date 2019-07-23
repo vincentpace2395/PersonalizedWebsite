@@ -5,14 +5,14 @@ import Description from './Description/Description';
 
 const DocumentsPage = () => {
     return (
-        <div>
-            <div>
+        <React.Fragment>
+            <React.Fragment>
                 <Bio category=<Description /> />
-            </div>
-            <div>
+            </React.Fragment>
+            <React.Fragment>
                 <ResumePreview />
-            </div>
-        </div>
+            </React.Fragment>
+        </React.Fragment>
     );
 };
 

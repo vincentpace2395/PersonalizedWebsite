@@ -6,10 +6,10 @@ import './LinksPage.css';
 
 const LinksPage = () => {
     return (
-        <div>
+        <React.Fragment>
             <Bio category=<LinksDescription /> />
             <ProfileLinks />
-        </div>
+        </React.Fragment>
     );
 };
 

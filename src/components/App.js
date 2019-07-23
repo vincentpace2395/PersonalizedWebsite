@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 import history from './history';
 import HomePage from '../components/Home/Home';
 import DocumentsPage from './Documents/DocumentsPage';
@@ -11,7 +12,7 @@ const App = () => {
     return (
         <div className='ui container '>
             <Router history={history}>
-                <div>
+                <React.Fragment>
                     <Header />
                     <Switch>
                         <Route path="/" exact component={HomePage} />
@@ -19,7 +20,8 @@ const App = () => {
                         <Route path="/documents" exact component={DocumentsPage} />
                         <Route path="/links" exact component={LinksPage} />
                     </Switch>
-                </div>
+                    <Footer />
+                </React.Fragment>
             </Router>
         </div>
     );

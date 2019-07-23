@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileImages = () => {
     return (
-        <div>
+        <React.Fragment>
             <div className='profile-list-first-row'>
                 <a href='https://github.com/vincentpace2395' target='_blank'>
                     <img
@@ -43,7 +43,7 @@ const ProfileImages = () => {
                         style={{ margin: '5px', width: '80px', height: '80px' }} />
                 </a>
             </div>
-        </div>
+        </React.Fragment>
     );
 };
 
