@@ -1,6 +1,6 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
-import ContactInfo from './ContactInfo/ContactInfo';
+import ContactButton from './ContactInfo/ContactButton/ContactButton';
 import Description from './Description/Description';
 import Skills from './Skills/Skills';
 
@@ -8,7 +8,7 @@ const AboutPage = () => {
     return (
         <div>
             <Bio category=<Description /> />
-            <ContactInfo />
+            <ContactButton />
             <Skills />
         </div>
     );
