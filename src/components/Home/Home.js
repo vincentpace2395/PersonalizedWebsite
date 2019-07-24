@@ -20,14 +20,14 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <Bio category = <Intro /> />
                 <Timeline />
                 <WeatherButton onShowWeather={this.onShowWeatherDisplay}/>
                 { this.state.showWeatherDisplay ? <WeatherDisplay /> : null }
 
                 <Footer />
-            </div>
+            </React.Fragment>
         );
     }
 };

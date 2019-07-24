@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactOptions from '../ContactOptions/ContactOptions';
 import './ContactButton.css';
 
 class ContactButton extends React.Component {
@@ -23,7 +22,7 @@ class ContactButton extends React.Component {
                     onClick={this.onClickHandler}
                     className='btn btn-primary'
                     style={{cursor: 'pointer', marginTop: '40px', marginLeft: '60px'}}>
-                    {`${this.state.isDisplayed ? 'Hide' : 'Show'} Contact Info`}
+                    {`${this.state.isDisplayed ? 'Hide Contact Info' : 'Contact Me'}`}
                 </button>
             </div>
         );
