@@ -8,13 +8,10 @@
       <change afterPath="$PROJECT_DIR$/../hooks-simple/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hooks-simple/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hooks-simple/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intro-to-react/src/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-react/src/Person/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Icons/Icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../posts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../posts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserOutput.css" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-course-first-assignment/src/Components/UserOutput.css" afterDir="false" />
@@ -32,19 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/About/AboutPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="359">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -52,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="15">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -79,6 +67,7 @@
       <find>Timeline</find>
       <find>Home</find>
       <find>WeatherButton</find>
+      <find>&lt;ContactOptions</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -90,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Contact/ContactPage.js" />
-        <option value="$PROJECT_DIR$/src/components/Contact/ContactInfo.css" />
         <option value="$PROJECT_DIR$/src/components/Bio/Bio.css" />
         <option value="$PROJECT_DIR$/src/components/icon/index.js" />
         <option value="$PROJECT_DIR$/src/components/About/Skills.css" />
@@ -139,14 +126,16 @@
         <option value="$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.js" />
         <option value="$PROJECT_DIR$/src/components/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/About/ContactInfo/ContactButton/ContactButton.css" />
-        <option value="$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js" />
         <option value="$PROJECT_DIR$/src/components/About/AboutPage.js" />
+        <option value="$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.css" />
+        <option value="$PROJECT_DIR$/src/components/About/ContactInfo/ContactDisplay/ContactDisplay.js" />
+        <option value="$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="197" />
-    <option name="y" value="172" />
+    <option name="y" value="171" />
     <option name="width" value="1112" />
     <option name="height" value="688" />
   </component>
@@ -207,13 +196,6 @@
               <item name="ContactInfo" type="462c0819:PsiDirectoryNode" />
               <item name="ContactOptions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -273,23 +255,23 @@
       <workItem from="1562980583101" duration="420000" />
       <workItem from="1562981046796" duration="39042000" />
       <workItem from="1563412893121" duration="21955000" />
-      <workItem from="1563689423834" duration="15338000" />
+      <workItem from="1563689423834" duration="21097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90464000" />
+    <option name="totallyTimeSpent" value="96223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="172" width="1112" height="688" extended-state="0" />
+    <frame x="197" y="171" width="1112" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21173236" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21173236" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4995417" visible="true" weight="0.31208053" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4995417" visible="true" weight="0.31208053" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5004583" side_tool="true" weight="0.31208053" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -330,8 +312,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Resume/ResumeTab.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/SideDrawer.js" />
     <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/DrawerToggleButton.js" />
     <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/SideDrawer.css" />
     <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/DrawerToggleButton.css" />
@@ -563,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Links/ProfileImages/ProfileImages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -641,17 +611,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js">
+    <entry file="file://$PROJECT_DIR$/src/components/About/AboutPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
+        <state relative-caret-position="168">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/AboutPage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Home/WeatherInfo/WeatherDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="359">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactDisplay/ContactDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About/ContactInfo/ContactOptions/ContactOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
