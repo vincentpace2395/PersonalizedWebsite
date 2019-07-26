@@ -2,3 +2,24 @@ img:hover {
     color: grey;
     display: inline-block;
 }
+
+.tooltip img{
+    display: block;
+    width: 100px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tooltip span {
+    display: none;
+}
+
+.tooltip:hover span {
+    display: block;
+    width: 200px;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+}
