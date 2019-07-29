@@ -1,6 +1,6 @@
 import React from 'react';
 import Bio from '../Bio/Bio';
-import ResumePreview from "./ResumePreview";
+import ResumePreview from "./Resume/ResumePreview";
 import Description from './Description/Description';
 
 const DocumentsPage = () => {
